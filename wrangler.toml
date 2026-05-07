@@ -18,3 +18,7 @@ bindings = [
 [[migrations]]
 tag = "v1"
 new_sqlite_classes = ["ChatRoom"]
+
+routes = [
+  { pattern = "chat.shadowsec.org/*", custom_domain = true }
+]
